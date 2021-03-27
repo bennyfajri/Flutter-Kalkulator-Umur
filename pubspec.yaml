@@ -1,0 +1,33 @@
+name: kalkulator_umur
+description: Kalkulator penghitung umur.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_launcher_icons: "^0.8.0"
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.jpg"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.jpg
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat.ttf
+
+
